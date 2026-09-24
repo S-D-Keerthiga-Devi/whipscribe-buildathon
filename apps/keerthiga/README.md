@@ -2,6 +2,9 @@
 
 > **Track 4 Submission: Invent a Workflow**  
 > *Transforming 45-minute user interview recordings into an interactive, timestamped Generative UI Kanban board with 1-click Jira/Linear sync.*
+> 
+> 🎥 **2-Minute Demo Video (Loom):** [Watch Live Loom Walkthrough](https://www.loom.com/share/4979ad9d57b542f897dae5db5531fb19)  
+> 🌐 **Live Cloud Deployment:** [Open in Manufact Inspector](https://inspector.manufact.com/inspector?server=https%3A%2F%2Fdark-cloud-x77yw.run.mcp-use.com%2Fmcp&tab=tools)
 
 ---
 
