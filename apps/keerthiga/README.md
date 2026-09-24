@@ -41,13 +41,13 @@ Instead of forcing researchers to read walls of text or static markdown summarie
 Here is the exact step-by-step pipeline from audio recording to actionable Generative UI:
 
 ```mermaid
-flowchart LR
-    A[🎙️ 45-min User Interview] -->|Audio Capture| B(WhipScribe Engine)
-    B -->|Transcribe & Diarize| C[WhipScribe API / MCP Server]
-    C -->|Structured Tool Call\ngenerate-kanban-board| D[Manufact Generative UI Runtime]
-    D -->|Mounts Native React View| E[📊 Interactive Action Kanban Board]
-    E -->|Click Timestamp| F[🔊 Play Audio at Exact Second]
-    E -->|1-Click Export| G[⚡ Jira & Linear Tickets with Permalinks]
+flowchart TD
+    A["🎙️ 45-min User Interview Recording"] -->|"Audio Ingestion"| B["WhipScribe Engine"]
+    B -->|"Transcribe & Diarize"| C["WhipScribe API & MCP Server"]
+    C -->|"Tool: generate-kanban-board"| D["Manufact Generative UI Runtime"]
+    D -->|"Mounts React Component"| E["📊 Interactive Action Kanban Board"]
+    E -->|"Click [08:14] Badge"| F["🔊 Audio Waveform Plays at Exact Second"]
+    E -->|"1-Click Export"| G["⚡ Jira & Linear Tickets with Audio Permalinks"]
 ```
 
 ### Step Breakdown:
